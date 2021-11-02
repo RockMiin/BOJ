@@ -20,16 +20,16 @@ def solution(files):
     return result
   
 # best
-import re
+# import re
 
-def solution(files):
-    answer = []
-    files_split = [re.split(r'(\d+)', file) for file in files]
-    files_split.sort(key = lambda x : (x[0].lower(), int(x[1])))
+# def solution(files):
+#     answer = []
+#     files_split = [re.split(r'(\d+)', file) for file in files]
+#     files_split.sort(key = lambda x : (x[0].lower(), int(x[1])))
     
-    for i in files_split:
-        answer.append(''.join(i)) 
+#     for i in files_split:
+#         answer.append(''.join(i)) 
     
-    return answer
+#     return answer
   
-  # REF : https://github.com/naem1023/codingTest/blob/master/sort/pg-30-17686.py
+# REF : https://github.com/naem1023/codingTest/blob/master/sort/pg-30-17686.py
